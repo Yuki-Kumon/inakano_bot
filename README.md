@@ -5,8 +5,8 @@ slackとかにgasから定期投稿するbotです。
 slack投稿を行う関数群。
 ## slackbot_function.gs
 slack投稿の際の処理系を纏めた関数群。
-## Toggle.gs:
-oggleから勉強時間を取得する関数群。
+## Toggle.gs
+Toggleから勉強時間を取得する関数群。
 ## Date_hundle.gs
 日付に関する文字列を扱う関数群(Toggle.gsだけが使ってたはず)。
 # 依存するライブラリ

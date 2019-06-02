@@ -17,9 +17,11 @@ Mastodonmain.main_mastodon = function() {
   Messageobject = SlackFunc.countdown(Messageobject, "五神総長の任期満了日", "2021/3/31");
 
   //Toggleから勉強時間を取得(気が向いたらどうぞ)
-  Messageobject.message += "==================\n";
-  Toggl.init();
-  Messageobject.message += Toggl.todaytask();
+  if (0){
+    Messageobject.message += "==================\n";
+    Toggl.init();
+    Messageobject.message += Toggl.todaytask();
+  }
 
   //投稿する
   return app.postMessage(channel_id, Messageobject.message, {
